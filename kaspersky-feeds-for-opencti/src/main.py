@@ -292,7 +292,7 @@ class Connector:
                 sys.exit(0)
 
             self._opencti_api.log_info(
-                f"Run Complete. Sleeping until next run in "
+                "Run Complete. Sleeping until next run in "
                 f"{self._update_interval} seconds"
             )
             time.sleep(self._update_interval)
